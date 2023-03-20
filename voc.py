@@ -2,6 +2,8 @@ import torch.utils.data as data
 from PIL import Image, ImageDraw
 import os.path
 import sys
+import numpy as np
+
 
 if sys.version_info[0] == 2:
     import xml.etree.cElementTree as ET
