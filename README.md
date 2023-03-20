@@ -1,5 +1,5 @@
-# VOCdataset
-Quick and easy to use VOCdataset
+# Quick and easy to use VOCdataset
+
 
 ## Dataset
 We define a class named VOCDetection, it can choose the data mode in the dataset at will.\
