@@ -10,7 +10,7 @@ Also, you can make `image_sets=[('2007', 'trainval'), ('2012', 'trainval')]`, th
 In `data_aug.py`, two classes are defined, DataAugmentation and BaseTransform. You can apply them to the train and val sections respectively, and modify them to achieve different effects
 
 ## Examples
-Input the following code to see the effect of the implementation
+Modify your data root, and input the following code to see the effect of the implementation.
 ```
 !python voc.py
 ```
