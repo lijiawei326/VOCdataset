@@ -97,11 +97,9 @@ if __name__ == '__main__':
     from data_aug import *
     from bbox_util import *
     import matplotlib.pyplot as plt
-    ds = VOCDetection('../../SSD/VOCdevkit/', [('2007-test', 'test')],
+    ds = VOCDetection('./VOCdevkit/', [('2007-test', 'test')],
                       transform=BaseTransform(448),
                       target_transform=TransformVOCDetectionAnnotation(False))
-
-
     img, bboxes = ds[0]
     img = draw_rect(img, bboxes)
     plt.imshow(img)
