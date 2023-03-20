@@ -14,4 +14,8 @@ Input the following code to see the effect of the implementation
 ```
 !python voc.py
 ```
-![./example.jpg]
+![](./example.jpg)
+
+## Reference
+[https://github.com/Paperspace/DataAugmentationForObjectDetection](https://github.com/Paperspace/DataAugmentationForObjectDetection)
+[https://github.com/fmassa/vision/blob/voc_dataset/torchvision/datasets/voc.py](https://github.com/fmassa/vision/blob/voc_dataset/torchvision/datasets/voc.py)
